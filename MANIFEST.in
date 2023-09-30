@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include donor_base *.css
+recursive-include donor_base *.csv
+recursive-include donor_base *.html
+recursive-include donor_base *.ico
+recursive-include donor_base *.js
+recursive-include donor_base *.json
+recursive-include donor_base *.md
+recursive-include donor_base *.png
+recursive-include donor_base *.py
+recursive-include donor_base *.svg
+recursive-include donor_base *.txt
+recursive-exclude donor_base *.pyc
