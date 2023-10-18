@@ -1,0 +1,57 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"3WvANFJ_Mn\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Donorbase</span>\",\"col\":12}},{\"id\":\"_gbHlQEI_F\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-C8-yOMYdE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DB Online Donor Profile\",\"col\":3}},{\"id\":\"7YcG680ngJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Data Export\",\"col\":3}},{\"id\":\"xTZf1V-0Qa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Data Import\",\"col\":3}},{\"id\":\"LxkaWB6dCB\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"OYX3Kf6qqw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Foreign Donor List\",\"col\":3}}]",
+ "creation": "2023-09-30 11:37:08.034551",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Donorbase",
+ "links": [],
+ "modified": "2023-10-09 19:39:26.552365",
+ "modified_by": "vtnd@harekrishnamandir.org",
+ "module": "Donor Base",
+ "name": "Donorbase",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 37.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "DB Online Donor Profile",
+   "link_to": "DB Online Donor Profile",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Data Export",
+   "link_to": "Data Export",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Foreign Donor List",
+   "link_to": "Foreign Donor",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Data Import",
+   "link_to": "Data Import",
+   "type": "DocType"
+  }
+ ],
+ "title": "Donorbase"
+}

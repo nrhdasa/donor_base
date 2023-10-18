@@ -7,6 +7,8 @@ app_description = "Ahmedabad Temple Donor Base Management"
 app_email = "nrhdasa@gmail.com"
 app_license = "MIT"
 
+
+
 # Includes in <head>
 # ------------------
 

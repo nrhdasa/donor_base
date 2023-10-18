@@ -1,0 +1,246 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:mobile_no",
+ "creation": "2023-09-30 11:52:41.415705",
+ "default_view": "Report",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "donor_profile_section",
+  "naming_series",
+  "first_name",
+  "mobile_no",
+  "email",
+  "column_break_ye9gi",
+  "date_of_birth",
+  "age",
+  "source",
+  "address_section",
+  "address",
+  "pincode",
+  "column_break_gsnol",
+  "city",
+  "state",
+  "extra_details",
+  "occupation",
+  "pan",
+  "loan",
+  "salary",
+  "gotra",
+  "column_break_t4tqg",
+  "gender",
+  "education",
+  "car_brand",
+  "car_model",
+  "nakshatra",
+  "activity_tab",
+  "sms_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "donor_profile_section",
+   "fieldtype": "Section Break",
+   "label": "Donor Profile"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Series",
+   "options": "ONL_DNR-.YYYY.-",
+   "read_only": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile No",
+   "options": "Phone",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Source"
+  },
+  {
+   "fieldname": "column_break_ye9gi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "pan",
+   "fieldtype": "Data",
+   "label": "PAN"
+  },
+  {
+   "fieldname": "address_section",
+   "fieldtype": "Section Break",
+   "label": "Address details"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "extra_details",
+   "fieldtype": "Section Break",
+   "label": "Extra Details"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "column_break_t4tqg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gotra",
+   "fieldtype": "Data",
+   "label": "Gotra"
+  },
+  {
+   "fieldname": "nakshatra",
+   "fieldtype": "Data",
+   "label": "Nakshatra"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "loan",
+   "fieldtype": "Currency",
+   "label": "Loan",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Currency",
+   "label": "Salary",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_gsnol",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "car_brand",
+   "fieldtype": "Data",
+   "label": "Car Brand"
+  },
+  {
+   "fieldname": "car_model",
+   "fieldtype": "Data",
+   "label": "Car Model"
+  },
+  {
+   "fieldname": "activity_tab",
+   "fieldtype": "Tab Break",
+   "label": "Activity"
+  },
+  {
+   "fieldname": "sms_count",
+   "fieldtype": "Int",
+   "label": "SMS Count"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "DB Online Donor SMS",
+   "link_fieldname": "mobile_no"
+  }
+ ],
+ "modified": "2023-10-14 20:05:42.190796",
+ "modified_by": "Administrator",
+ "module": "Donor Base",
+ "name": "DB Online Donor Profile",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "DCC Executive",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "first_name",
+ "track_changes": 1,
+ "track_views": 1
+}
